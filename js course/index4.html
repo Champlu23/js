@@ -1,0 +1,53 @@
+<!-- Условные операторы -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var number = 15;
+        var number2 = 16;
+        var isHasHourse = true;
+        var stroka = "word";
+
+        if(number2 > number) {
+            console.log("OK");
+        }
+
+        if(number > number2) {
+            console.log("OK2");
+        }
+        else {
+            console.log("No");
+        }
+
+        if(number == number2) {
+            console.log("Привет");
+        }
+        else if(number != 16) {
+            console.log("Здравствуй");
+        }
+        else {
+            console.log("aaa");
+        }
+    
+
+        if (number == 15 && isHasHourse) {
+            console.log("Условные операторы");
+        }
+
+        switch(stroka) {
+          case "4": console.log("Переменная со значением 4");
+          break;
+          case "word": 
+          console.log("Переменная со значением word")
+          break;  
+        default: 
+        console.log("s123");
+        }
+    </script>
+</body>
+</html>
